@@ -6,6 +6,7 @@
 
 body {
   font-family: var(--main-font);
+  color: #212121;
 }
 
 .link {
@@ -19,3 +20,84 @@ body {
 .address {
   font-style: normal;
 }
+/* ===============Components=============== */
+.navigation-logo-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.navigation-logo-studio-nav {
+  color: #000000;
+}
+.navigation-logo-studio-footer {
+  color: #ffffff;
+}
+.order-button {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+}
+/* ===============End Components=============== */
+
+/* ===============Header=============== */
+.navigation-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+.mail-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+.tel-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+/* ===============End Header=============== */
+
+/* ===============Hero=============== */
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+/* ===============End Hero=============== */
