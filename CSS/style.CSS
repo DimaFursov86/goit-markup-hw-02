@@ -7,6 +7,7 @@
 body {
   font-family: var(--main-font);
   color: #212121;
+  background: #f5f4fa;
 }
 
 .link {
@@ -48,9 +49,18 @@ body {
   display: flex;
   align-items: center;
 }
+.products-and-team-titles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /* ===============End Components=============== */
 
 /* ===============Header=============== */
+
 .navigation-link {
   font-family: var(--main-font);
   font-weight: 500;
@@ -101,3 +111,82 @@ body {
   /* color: #ffffff; */
 }
 /* ===============End Hero=============== */
+
+/* ===============Dignity=============== */
+.dignity-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.dignity-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ===============End Dignity=============== */
+
+/* ===============Types of product=============== */
+
+/* ===============End Types of product=============== */
+
+/* ===============Our team=============== */
+
+.our-team-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team-job {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.our-team-item {
+  display: inline-block;
+  margin: 21px 15px 15px 15px;
+  border: 0px;
+  padding: 0px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.our-team-img {
+  margin-bottom: 10px;
+}
+.our-team-job {
+  margin-bottom: 26px;
+}
+
+/* ===============End Our team=============== */
+
+/* ===============Footer=============== */
+.address-google-maps {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail-tel-link {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer {
+  background: #2f303a;
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  margin-top: 94px;
+}
+/* ===============Footer=============== */
