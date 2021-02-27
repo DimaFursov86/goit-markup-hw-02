@@ -232,6 +232,6 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--portfolio-cards-description-color);
+  /* color: var(--portfolio-cards-description-color); */
 }
 /* ===============End Portfolio cards=============== */
