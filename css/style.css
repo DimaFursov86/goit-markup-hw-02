@@ -10,11 +10,14 @@
   --portfolio-nav-text-color: #212121;
   --portfolio-cards-description-color: #757575;
   --footer-mail-tel-link-color: rgba(255, 255, 255, 0.6);
+  --body-font-color: #212121;
+  --navigation-logo-studio-color: #000000;
+  --navigation-logo-studio-footer: #ffffff;
 }
 
 body {
   font-family: var(--main-font);
-  color: #212121;
+  color: var(--body-font-color);
 }
 
 .link {
@@ -38,13 +41,13 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .navigation-logo-studio-nav {
-  color: #000000;
+  color: var(--navigation-logo-studio-color);
 }
 .navigation-logo-studio-footer {
-  color: #ffffff;
+  color: var(--navigation-logo-studio-footer);
 }
 .order-button {
   font-family: var(--main-font);
@@ -52,7 +55,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--navigation-logo-studio-footer);
   background-color: var(--accent-color);
   text-align: center;
   letter-spacing: 0.06em;
@@ -79,21 +82,21 @@ body {
   letter-spacing: 0.02em;
 }
 .navigation-link-color {
-  color: #212121;
+  color: var(--portfolio-cards-title-color);
 }
 .navigation-link-color:hover,
 .navigation-link-color:focus {
   color: var(--accent-color);
 }
 .mail-link {
-  color: #757575;
+  color: var(--portfolio-cards-description-color);
 }
 .mail-link:hover,
 .mail-link:focus {
   color: var(--accent-color);
 }
 .tel-link {
-  color: #757575;
+  color: var(--portfolio-cards-description-color);
 }
 .tel-link:hover,
 .tel-link:focus {
@@ -115,7 +118,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--navigation-logo-studio-footer);
 }
 
 /* ===============End Hero=============== */
@@ -132,7 +135,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--portfolio-cards-description-color);
 }
 /* ===============End Dignity=============== */
 
@@ -154,14 +157,14 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--portfolio-cards-description-color);
 }
 .our-team-item {
   display: inline-block;
   margin: 21px 15px 15px 15px;
   border: 0px;
   padding: 0px;
-  background: #ffffff;
+  background: var(--navigation-logo-studio-footer);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -181,14 +184,24 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--navigation-logo-studio-footer);
 }
+
+.address-google-maps:hover,
+.address-google-maps:focus {
+  color: var(--accent-color);
+}
+
 .footer-mail-tel-link {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-mail-tel-link-color);
+}
+.footer-mail-tel-link:hover,
+.footer-mail-tel-link:focus {
+  color: var(--accent-color);
 }
 .footer {
   background: var(--footer-background-color);
@@ -209,8 +222,8 @@ body {
 }
 .navigation-buttons:hover,
 .navigation-buttons:focus {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--navigation-logo-studio-footer);
+  background: var(--accent-color);
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
